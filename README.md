@@ -1,5 +1,8 @@
 # awesome-FR3-robotics
 
+- [Robot Library](#Robot-Library)
+- [Robot Object Pose Estimation](#Robot-Object-Pose-Estimation)
+
 - [Robot Learning](#Robot-Learning)
 - [Robot Planning](#Robot-Planning)
 - [Physical Human-Robot Interaction](#Physical-Human-Robot-Interaction)
@@ -18,7 +21,7 @@
 
 
 
-## Robot Calibration
+## Robot Object Pose Estimation
 
 [ICRA 2020] **Camera-to-Robot Pose Estimation from a Single Image** <br>
 
@@ -41,6 +44,17 @@
 *[Jingpei Lu](https://arxiv.org/search/cs?searchtype=author&query=Lu%2C+J), [Florian Richter](https://arxiv.org/search/cs?searchtype=author&query=Richter%2C+F), [Michael C. Yip](https://arxiv.org/search/cs?searchtype=author&query=Yip%2C+M+C)* <br>
 
 [[arxiv](https://arxiv.org/abs/2302.14332)] [[code](https://github.com/ucsdarclab/CtRNet-robot-pose-estimation)]
+
+
+
+[CVPR 2023] **BundleSDF: Neural 6-DoF Tracking and 3D Reconstruction of Unknown Objects** <br>
+
+*[Bowen Wen](https://research.nvidia.com/person/bowen-wen), [Jonathan Tremblay](https://research.nvidia.com/person/jonathan-tremblay), [Valts Blukis](https://research.nvidia.com/person/valts-blukis), [Stephen Tyree](https://research.nvidia.com/person/stephen-tyree), [Thomas Müller](https://research.nvidia.com/person/thomas-muller),
+[Alex Evans](https://research.nvidia.com/person/alex-evans), [Dieter Fox](https://research.nvidia.com/person/dieter-fox), [Jan Kautz](https://research.nvidia.com/person/jan-kautz), [Stan Birchfield](https://research.nvidia.com/person/stan-birchfield)* <br>
+
+[[arxiv](https://arxiv.org/abs/2303.14158)] [[project](https://bundlesdf.github.io/)] [[code soon]()] [NVIDIA]
+
+
 
 
 
@@ -97,6 +111,18 @@
 [ICLR 2023] **From Play to Policy: Conditional Behavior Generation from Uncurated Robot Data** <br>
 
 [[arxiv](https://arxiv.org/abs/2210.10047)] [[project](https://play-to-policy.github.io/)] [[code](https://github.com/jeffacce/play-to-policy)]
+
+
+
+[ICRA 2022] **SAGCI-System: Towards Sample-Efficient, Generalizable, Compositional, and Incremental Robot Learning** <br>
+
+*[Jun Lv](https://ieeexplore.ieee.org/author/37089449764); [Qiaojun Yu](https://ieeexplore.ieee.org/author/37089450989); [Lin Shao](https://ieeexplore.ieee.org/author/37086423705); [Wenhai Liu](https://ieeexplore.ieee.org/author/37085683936); [Wenqiang Xu](https://ieeexplore.ieee.org/author/37088221545); [Cewu Lu](https://ieeexplore.ieee.org/author/37085483529)* <br>
+
+[[paper](https://ieeexplore.ieee.org/document/9811859)] [[project](https://sites.google.com/view/egci)]
+
+
+
+
 
 
 
@@ -186,6 +212,28 @@
 
 
 
+[RSS 2021] **Active Learning of Abstract Plan Feasibility** <br>
+
+*[Michael Noseworthy](https://arxiv.org/search/cs?searchtype=author&query=Noseworthy%2C+M), [Caris Moses](https://arxiv.org/search/cs?searchtype=author&query=Moses%2C+C), [Isaiah Brand](https://arxiv.org/search/cs?searchtype=author&query=Brand%2C+I), [Sebastian Castro](https://arxiv.org/search/cs?searchtype=author&query=Castro%2C+S), [Leslie Kaelbling](https://arxiv.org/search/cs?searchtype=author&query=Kaelbling%2C+L), [Tomás Lozano-Pérez](https://arxiv.org/search/cs?searchtype=author&query=Lozano-Pérez%2C+T), [Nicholas Roy](https://arxiv.org/search/cs?searchtype=author&query=Roy%2C+N)* <br>
+
+[[arxiv](https://arxiv.org/abs/2107.00683)]  [[code](https://github.com/Learning-and-Intelligent-Systems/stacking)] [[videos](https://www.youtube.com/watch?v=UF-SjGm20Mw)] [[MIT,Robust Robotics Group](https://groups.csail.mit.edu/rrg/)]
+
+
+
+[CoRL 2020] **Learning to Compose Hierarchical Object-Centric Controllers for Robotic Manipulation** <br>
+
+*[Mohit Sharma](https://arxiv.org/search/cs?searchtype=author&query=Sharma%2C+M), [Jacky Liang](https://arxiv.org/search/cs?searchtype=author&query=Liang%2C+J), [Jialiang Zhao](https://arxiv.org/search/cs?searchtype=author&query=Zhao%2C+J), [Alex LaGrassa](https://arxiv.org/search/cs?searchtype=author&query=LaGrassa%2C+A), [Oliver Kroemer](https://arxiv.org/search/cs?searchtype=author&query=Kroemer%2C+O)* <br>
+
+[[arxiv](https://arxiv.org/abs/2011.04627)] [[project](https://sites.google.com/view/compositional-object-control/)] [[code](https://github.com/iamlab-cmu/hierarchical-object-controllers)]
+
+
+
+:fire: [CoRL 2022] **RoboTube: Learning Household Manipulation from Human Videos with Simulated Twin Environments** <br>
+
+*[haoyu Xiong](https://openreview.net/profile?id=~haoyu_Xiong2)*, [Haoyuan Fu](https://openreview.net/profile?id=~Haoyuan_Fu1)*,* [Jieyi Zhang](https://openreview.net/profile?id=~Jieyi_Zhang1)*,* [Chen Bao](https://openreview.net/profile?id=~Chen_Bao2)*,* [Qiang Zhang](https://openreview.net/profile?id=~Qiang_Zhang10)*,* [Yongxi Huang](https://openreview.net/profile?id=~Yongxi_Huang1)*,* [Wenqiang Xu](https://openreview.net/profile?id=~Wenqiang_Xu2)*,* [Animesh Garg](https://openreview.net/profile?id=~Animesh_Garg1)*,* [Cewu Lu](https://openreview.net/profile?id=~Cewu_Lu3) <br>
+
+[[paper](https://openreview.net/pdf?id=VD0nXUG5Qk)] [[project](https://www.robotube.org/)] [[code soon]()]
+
 
 
 ## Robot Grasping
@@ -194,7 +242,7 @@
 
 *[Hanbo Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang%2C+H), [Jian Tang](https://arxiv.org/search/cs?searchtype=author&query=Tang%2C+J), [Shiguang Sun](https://arxiv.org/search/cs?searchtype=author&query=Sun%2C+S), [Xuguang Lan](https://arxiv.org/search/cs?searchtype=author&query=Lan%2C+X)* <br>
 
-[[arxiv](https://arxiv.org/abs/2202.03631)]
+[[arxiv](https://arxiv.org/abs/2202.03631)] [Xian JTU]
 
 
 
@@ -252,11 +300,32 @@
 
 
 
+## Human to Robot Hand Mapping
+
+[T-RO 2023] **Human to Robot Hand Motion Mapping Methods: Review and Classification**
+
+[[paper](https://ieeexplore.ieee.org/document/9896989)]
+
+
+
 ## awesome-robot-groups
 
 - [The Robotics Institute, Carnegie Mellon University](https://www.ri.cmu.edu/)
 - [Dyson Robotics Lab, Imperial College London](http://www.google.com/url?q=http%3A%2F%2Fwww.imperial.ac.uk%2Fdyson-robotics-lab%2Fprojects%2Frlbench%2F&sa=D&sntz=1&usg=AOvVaw0DBha3VkgeJjnzNhGiXIrw)
 - [MIT MCube Lab](http://mcube.mit.edu/publications.html)
 
+- [MIT Robotics](https://www.csail.mit.edu/research/?category=People&researchFacets=Robotics)
 
+- [MIT, Robust Robotics Group](https://groups.csail.mit.edu/rrg/index.php)]
+
+
+
+## awesome-papers
+
+- RSS
+- ICRA
+- IROS
+- CoRL
+- IJRR
+- TRO
 
