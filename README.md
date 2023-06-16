@@ -1,7 +1,9 @@
 # awesome-FR3-robotics
 
 - [Robot Library](#Robot-Library)
-- [Robot Object Pose Estimation](#Robot-Object-Pose-Estimation)
+- [Camera-to-Robot Pose Estimation](#Camera-to-Robot-Pose-Estimation)
+
+- [Object-to-Robot Pose Estimation](#Object-to-Robot-Pose-Estimation)
 
 - [Robot Learning](#Robot-Learning)
 - [Robot Planning](#Robot-Planning)
@@ -21,7 +23,41 @@
 
 
 
-## Robot Object Pose Estimation
+## Camera-to-Robot Pose Estimation
+
+[open tool] **Robot Calibration**
+
+[[github](https://github.com/mikeferguson/robot_calibration)]
+
+
+
+[open tool] **easy_handeye: automated, hardware-independent Hand-Eye Calibration**
+
+[[github](https://github.com/IFL-CAMP/easy_handeye)]
+
+
+
+[Movelt]  [MoveIt Calibration](http://www.github.com/ros-planning/moveit_calibration)
+
+[[docs](https://ros-planning.github.io/moveit_tutorials/doc/hand_eye_calibration/hand_eye_calibration_tutorial.html)] [[github](https://github.com/ros-planning/moveit_calibration)]
+
+
+
+[IJATM 2022] **An overview of hand-eye calibration** <br>
+
+*[Jianfeng Jiang](https://link.springer.com/article/10.1007/s00170-021-08233-6#auth-Jianfeng-Jiang), [Xiao Luo](https://link.springer.com/article/10.1007/s00170-021-08233-6#auth-Xiao-Luo), [Qingsheng Luo](https://link.springer.com/article/10.1007/s00170-021-08233-6#auth-Qingsheng-Luo), [Lijun Qiao](https://link.springer.com/article/10.1007/s00170-021-08233-6#auth-Lijun-Qiao), [Minghao Li](https://link.springer.com/article/10.1007/s00170-021-08233-6#auth-Minghao-Li)* <br>
+
+[[paper](https://link.springer.com/article/10.1007/s00170-021-08233-6)] [survey]
+
+
+
+[arxiv 2023] **RegHEC: Hand-Eye Calibration via Simultaneous Multi-view Point Clouds Registration of Arbitrary Object** <br>
+
+*[Shiyu Xing](https://arxiv.org/search/cs?searchtype=author&query=Xing%2C+S), [Fengshui Jing](https://arxiv.org/search/cs?searchtype=author&query=Jing%2C+F), [Min Tan](https://arxiv.org/search/cs?searchtype=author&query=Tan%2C+M)* <br>
+
+[[arxiv](https://arxiv.org/abs/2304.14092)] [[code](https://github.com/Shiyu-Xing/RegHEC)] 
+
+
 
 [ICRA 2020] **Camera-to-Robot Pose Estimation from a Single Image** <br>
 
@@ -45,9 +81,23 @@
 
 [[arxiv](https://arxiv.org/abs/2302.14332)] [[code](https://github.com/ucsdarclab/CtRNet-robot-pose-estimation)]
 
+## Object-to-Robot Pose Estimation
+
+[CoRL 2018] **Deep Object Pose Estimation for Semantic Robotic Grasping of Household Objects** <br>
+
+*[Jonathan Tremblay](https://arxiv.org/search/cs?searchtype=author&query=Tremblay%2C+J), [Thang To](https://arxiv.org/search/cs?searchtype=author&query=To%2C+T), [Balakumar Sundaralingam](https://arxiv.org/search/cs?searchtype=author&query=Sundaralingam%2C+B), [Yu Xiang](https://arxiv.org/search/cs?searchtype=author&query=Xiang%2C+Y), [Dieter Fox](https://arxiv.org/search/cs?searchtype=author&query=Fox%2C+D), [Stan Birchfield](https://arxiv.org/search/cs?searchtype=author&query=Birchfield%2C+S)* <br>
+
+[[arxiv](https://arxiv.org/abs/1809.10790)] [[project](https://research.nvidia.com/publication/2018-09_deep-object-pose-estimation-semantic-robotic-grasping-household-objects)] [[code](https://github.com/NVlabs/Deep_Object_Pose)] [[NVlabs](https://github.com/NVlabs)]
 
 
-[CVPR 2023] **BundleSDF: Neural 6-DoF Tracking and 3D Reconstruction of Unknown Objects** <br>
+
+[IROS 2020] **Indirect Object-to-Robot Pose Estimation from an External Monocular RGB Camera** <br>*[Jonathan Tremblay](https://arxiv.org/search/cs?searchtype=author&query=Tremblay%2C+J), [Stephen Tyree](https://arxiv.org/search/cs?searchtype=author&query=Tyree%2C+S), [Terry Mosier](https://arxiv.org/search/cs?searchtype=author&query=Mosier%2C+T), [Stan Birchfield](https://arxiv.org/search/cs?searchtype=author&query=Birchfield%2C+S)* <br>
+
+[[arxiv](https://arxiv.org/abs/2008.11822)] [[code](https://github.com/NVlabs/Deep_Object_Pose)] [[NVlabs](https://github.com/NVlabs)]
+
+
+
+:fire:[CVPR 2023] **BundleSDF: Neural 6-DoF Tracking and 3D Reconstruction of Unknown Objects** <br>
 
 *[Bowen Wen](https://research.nvidia.com/person/bowen-wen), [Jonathan Tremblay](https://research.nvidia.com/person/jonathan-tremblay), [Valts Blukis](https://research.nvidia.com/person/valts-blukis), [Stephen Tyree](https://research.nvidia.com/person/stephen-tyree), [Thomas Müller](https://research.nvidia.com/person/thomas-muller),
 [Alex Evans](https://research.nvidia.com/person/alex-evans), [Dieter Fox](https://research.nvidia.com/person/dieter-fox), [Jan Kautz](https://research.nvidia.com/person/jan-kautz), [Stan Birchfield](https://research.nvidia.com/person/stan-birchfield)* <br>
@@ -55,6 +105,12 @@
 [[arxiv](https://arxiv.org/abs/2303.14158)] [[project](https://bundlesdf.github.io/)] [[code soon]()] [NVIDIA]
 
 
+
+:fire:[ECCV 2022] **ShAPO: Implicit Representations for Multi-Object Shape, Appearance, and Pose Optimization** <br>
+
+*[Muhammad Zubair Irshad](https://arxiv.org/search/cs?searchtype=author&query=Irshad%2C+M+Z), [Sergey Zakharov](https://arxiv.org/search/cs?searchtype=author&query=Zakharov%2C+S), [Rares Ambrus](https://arxiv.org/search/cs?searchtype=author&query=Ambrus%2C+R), [Thomas Kollar](https://arxiv.org/search/cs?searchtype=author&query=Kollar%2C+T), [Zsolt Kira](https://arxiv.org/search/cs?searchtype=author&query=Kira%2C+Z), [Adrien Gaidon](https://arxiv.org/search/cs?searchtype=author&query=Gaidon%2C+A)*<br>
+
+[[arxiv](https://arxiv.org/abs/2207.13691)] [[project](https://zubair-irshad.github.io/projects/ShAPO.html)] [[code](https://github.com/zubair-irshad/shapo)]
 
 
 
@@ -73,8 +129,6 @@
 *[Oier Mees](https://arxiv.org/search/cs?searchtype=author&query=Mees%2C+O), [Jessica Borja-Diaz](https://arxiv.org/search/cs?searchtype=author&query=Borja-Diaz%2C+J), [Wolfram Burgard](https://arxiv.org/search/cs?searchtype=author&query=Burgard%2C+W)*<br>
 
 [[arxiv](https://arxiv.org/abs/2210.01911)] [[project](http://hulc2.cs.uni-freiburg.de/)] [[code: soon]()]
-
-
 
 
 
@@ -119,12 +173,6 @@
 *[Jun Lv](https://ieeexplore.ieee.org/author/37089449764); [Qiaojun Yu](https://ieeexplore.ieee.org/author/37089450989); [Lin Shao](https://ieeexplore.ieee.org/author/37086423705); [Wenhai Liu](https://ieeexplore.ieee.org/author/37085683936); [Wenqiang Xu](https://ieeexplore.ieee.org/author/37088221545); [Cewu Lu](https://ieeexplore.ieee.org/author/37085483529)* <br>
 
 [[paper](https://ieeexplore.ieee.org/document/9811859)] [[project](https://sites.google.com/view/egci)]
-
-
-
-
-
-
 
 
 
